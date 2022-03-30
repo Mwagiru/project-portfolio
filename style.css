@@ -49,23 +49,40 @@ h5 {
     font-style: italic;
     font-size: 45px;
     line-height: 40vh;
-}
-#home {
-background-color: white;
-height: 70vh;
+
 }
 #about {
-background-color: black;
+background-color: blue;
+justify-content: center;
+height: 60%;
 }
 #projects {
 background-color: white;
+height: 70vh;
 }
 #skills {
 background-color: yellow;
+height: 40vh;
+text-align: center;
+}
+progress {
+width: 70%;
+display: block;
 }
 #contact {
-background-color: black;
+background-color: white;
+height:30vh;
+}
+.fa {
+    display: block;
 }
 #footer {
 background-color: white;
+height: 5vh;
+}
+.foot {
+    text-align: center;
+    font-style: oblique;
+    font-size: 30px;
+    color:wheat;
 }
