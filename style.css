@@ -88,11 +88,24 @@ span::before {
     }
 }
 #about {
-background-color: black;
-justify-content: center;
-color: white;
-}
+    background-color: black;
+    justify-content: center;
+    color: #D4AF37;
 
+}
+.image1 {
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 5em;
+    width: 50vw; 
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.image1 img {
+    border-radius: 50%;
+    box-shadow: 3px 3px #D4AF37;
+}
 #projects {
 background-color: white;
 height: 90vh;
