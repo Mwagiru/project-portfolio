@@ -160,13 +160,12 @@ height:30vh;
     justify-content: space-evenly;
     font-size: 60px;
     padding: 1em;
-    color: #D4AF37;
 }
 #contact h3 {
-    color: #D4AF37;
+    color: whitesmoke;
     text-align: center;
     font-size: 1.8em;
-    font-family: 'Boogaloo', cursive;
+    font-family: 'Josefin Sans', sans-serif;
 }
 #footer {
 background-color: black;
