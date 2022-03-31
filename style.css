@@ -4,22 +4,24 @@
     box-sizing: border-box;
 }
 main {
+    width: 100vw;
     background-color: #D4AF37;
     margin: 0;
     padding: 0;
+    border: 0;
 }
 section {
-    width: 100%;
+    width: 100vw;
     height: 100vh;
-     border-radius: 7em;
-     margin-bottom: 0.5em;
      margin-left: 0.5em;
      margin-right: 0.5em;
+     overflow: hidden;
 }
 #nav {
     background-image: url(./images/building.jpg);
     background-size: cover;
     background-repeat: no-repeat;
+    margin-bottom: 0.5em;
 }
 ul {
     list-style-type: none;
@@ -53,7 +55,7 @@ li a:hover {
     flex-direction: column;
     justify-content: space-evenly;
     align-items: center;
-   
+   padding-left: 3em;
 }
 .content h2 {
     padding: 0;
@@ -61,6 +63,7 @@ li a:hover {
     color: white;
     font-size: 3em;
     position: relative;
+    
 }
 .content h4 {
     color: #D4AF37;
@@ -140,6 +143,7 @@ button {
     display: flex;
     flex-direction: row;
     justify-content: center;
+    padding-top: 0.5em;
 }
 .projects-content img {
     padding-left: 2em;
@@ -169,14 +173,14 @@ button {
 }
 .projects1 img {
     padding-left: 2em;
-    padding-top:3em;
+    padding-top:0;
     border-radius: 110px 50px;
 }
 .projects1 p {
     width: 20em;
     display: inline-block;
     word-wrap: break-word;
-    padding-top: 0.5em;
+    padding-top: 2em;
     line-height:30px;
     word-spacing: 5px;
 }
@@ -199,10 +203,7 @@ button {
 }
 #photo2 {
     float: right;
-}
-#skills {
-    background-image: linear-gradient(to right, #242526, black);
-}
+} 
 .shape {
     height:20vh;
     width: 20vh;
@@ -213,28 +214,28 @@ button {
 }
 #contact {
     background-image: linear-gradient(to right, #515151, black);
-    height:30vh;
+    height:50vh;
 }
 .contact-content {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
     font-size: 60px;
-    padding: 1em;
+    padding: 3em;
 }
 #contact h3 {
     color: whitesmoke;
     text-align: center;
     font-size: 1.8em;
     font-family: 'Josefin Sans', sans-serif;
+    padding-top: 2.5em;
 }
 #footer {
-    background-image: linear-gradient(to right, #515151, black);
     height: 5vh;
 }
 .foot {
     text-align: center;
     font-style: oblique;
     font-size: 30px;
-    color:#D4AF37;
+    color:#242526;
 }
