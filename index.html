@@ -7,70 +7,88 @@
     <title>My Portfolio</title>
     <link rel="stylesheet" href="style.css"/>
     <script src="https://kit.fontawesome.com/94947eb2e2.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inspiration&display=swap" rel="stylesheet">
 </head>
 <body>
-    <section id="nav">
-        <div class="navbar">
-            <ul>
-                <li><a href="#nav">Home</a></li>
-                <li><a href="#about">About</a></li>
-                <li><a href="#projects">Projects</a></li>
-                <li><a href="#skills">Skills</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>   
-         </div>
-        <div class="content">
-            <h3>Web Developer Portfolio</h3>
-            <h2>JOY MWAGIRU</h2>
-        </div>
-        <h5>learn  . create  . earn</h5>
-        
-    </section>
-    <section id="about">
-        <div class="about-content">
-            <h2>SOFTWARE DEVELOPER</h2>
-            <p>Hello, I am MWAGIRU</p>
-            <p>I design and develop websites.Creation and creativity @100</p>
-            <p>Creating magic using CODE!</p>
-        </div>
-        <div>
-          <img src="/Pictures/webphotos/pexels.jpg" alt="photo", width="400px" height="400px">  
-        </div>
-        <div>
-            <h3>{ABOUT ME}</h3>
-            <p>As previously stated, I am Joy Mwagiru and I am a software developer. Thew whole concept of creating things has always been so fascinating to me. Building things that people view as beautiful and actually enjoy, that is the goal! I am a computer science student at AFRICA NAZARENE UNIVERSITY but currently taking software development course at MORINGA SCHOOL.It is a nice experience and I am very excited to be on this journey.<br>Just to share what get me through because we can all agree that sometimes things can be frustrating:<blockquote>No one is YOU and that is your biggest POWER</blockquote></p>
-        </div>
-    </section>
-    <section id="projects"></section>
-    <section id="skills">
-        <h1>SKILLS TABLE:</h1>
-        <h2>The progress bars show how proficient I am in stated languages:</h2>
+    <main>
+        <section id="nav">
+                <ul>
+                    <li><a href="#nav">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>  
+                <div class="content">
+                    <h4>MWAGIRU</h4>
+                    <h2>Software developer:<br><br><span></span></h2>
+                </div> 
+                
+        </section>
+        <section id="about">
+            <div class="about-content">
+                <h2>SOFTWARE DEVELOPER</h2>
+                <p>Hello, I am MWAGIRU</p>
+                <p>I design and develop websites.Creation and creativity @100</p>
+                <p>Creating magic using CODE!</p>
+            </div>
+            <div>
+                <img src="/Pictures/webphotos/pexels.jpg" alt="photo", width="400px" height="400px">
+                <map name="workmap">
+                    <area shape="rect" coords="34,44,270,350" alt="image" href="">
+                    <area shape="rect" coords="290,172,333,250" alt="Phone" href="phone.htm">
+                    <area shape="circle" coords="337,300,44" alt="Cup of coffee" href="coffee.htm">
+                </map>
+  
+            </div>
+            <div>
+                <h3>{ABOUT ME}</h3>
+                <p>As previously stated, I am Joy Mwagiru and I am a software developer. Thew whole concept of creating things has always been so fascinating to me. Building things that people view as beautiful and actually enjoy, that is the goal! I am a computer science student at AFRICA NAZARENE UNIVERSITY but currently taking software development course at MORINGA SCHOOL.It is a nice experience and I am very excited to be on this journey.<br>Just to share what get me through because we can all agree that sometimes things can be frustrating:<blockquote>No one is YOU and that is your biggest POWER</blockquote></p>
+            </div>
+        </section>
+        <section id="projects">
+            <h2>[MY PROJECTS]</h2>
+            <p>These are some of the projects that I have worked on.</p>
+            <div class="images">
+                <img src="/Development/code/Phase0/phase0-Project/images/Screenshot1.png" alt="Photo1" usemap="#photomap" width="600px" height="400px">
+            </div>   
+            <div class="images">
+                <img id="photo2"src="/Development/code/Phase0/phase0-Project/images/Screenshot2.png" alt="Photo1" usemap="#photomap"
+                    width="600px" height="400px">
+            </div>
+        </section>
+        <section id="skills">
+            <h1>SKILLS TABLE:</h1>
+            <div class="shape">
+                <button type="button" onclick ="document.write(7*6) ">HTML</button>
+            </div>
+            <div class="shape">
+                <button onclick="document.write(7*6) ">CSS</button>
+            </div>
+            <div class="shape">
 
-        <label for="docu">HTML progress:</label>
-        <progress id="docu" value="65%" max="100">65%</progress>
-
-        <label for=" docu">CSSprogress:</label>
-        <progress id="docu" value="60%" max="100">60%</progress>
-
-        <label for="docu">JS progress:</label>
-        <progress id="docu"value="50%" max="100">50%</progress>
-
-        <label for="docu">RUBY progress:</label>
-        <progress id="docu" value="0%" max="100">0%</progress>
-
-        <label for="docu">REACT progress:</label>
-        <progress id="docu" value="0%" max="100">0%</progress>
-    </section>
-    <section id="contact">
-    <i class="fa-solid fa-phone"></i>
-    <i class="fa-solid fa-circle-envelope"></i>
-    <i class="fa-brands fa-github"></i>
-    <i class="fa-brands fa-whatsapp"></i>
-    <i class="fa-brands fa-linkedin"></i>
-    <i class="fa-brands fa-instagram"></i>
-    </section>
-    <section id="footer">
-        <p class="foot">copyright@portflio2022</p>
-    </section>
+            <button onclick="document.write(7*6) ">JAVASCRIPT</button>
+            </div>
+            <div class="shape"><button onclick="document.write(7*6) ">RUBY</button></div>
+            
+            <div class="shape"><button onclick="document.write(7*6)">REACT</button></div>
+           
+        </section>
+       <section id="contact">
+            <h3>Reach me at:</h3>
+            <div class="contact-content">
+                <a href="tel: +254793005897" class="fa-solid fa-spin fa-phone"></a>
+                <a href="mailto:joymwagiru@gmail.com" class="fa-solid fa-envelope"></a>
+                <a href="https://github.com/Mwagiru" class="fa-brands fa-spin fa-github"></a>
+                <a href="https://api.whatsapp.com/send?phone=254793005897" target="_blank" class="fa-brands fa-whatsapp"></a>
+                <a href="https://www.instagram.com/_.mwagiru._/"target="_blank" class="fa-brands fa-spin fa-instagram"></a>
+            </div>    
+        </section>
+        <section id="footer">
+            <p class="foot">copyright@portflio2022</p>
+        </section>
+    </main>
 </body>
 </html>
