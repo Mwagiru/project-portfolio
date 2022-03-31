@@ -118,6 +118,14 @@ span::before {
     display: inline-block;
     word-wrap: break-word;
 }
+button {
+    background-color: aliceblue;
+    color: #D4AF37;
+    width: 7em;
+    height:3em;
+     font-family: 'Josefin Sans', sans-serif;
+     font-size: 20px;
+}
 #projects {
     background-image: linear-gradient(to right, #515151, black);
     color: #D4AF37;
