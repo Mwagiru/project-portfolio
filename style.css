@@ -30,6 +30,7 @@ ul {
     justify-content:center;
     overflow: hidden;
     position: fixed;
+    background-color: #242526;
 }
 li a {
     text-decoration: none;
