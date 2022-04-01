@@ -5,7 +5,7 @@ This is my portfolio's landing page.
 ##
 ![Getting Started](./images/Screenshot%20from%202022-04-01%2009-36-09.png)
 Click the live link below or in the about section of this repository to view the webpage.
-(mwagiru.github.io/project-portfolio/)
+(https://mwagiru.github.io/project-portfolio/)
 ## author name
 JOY MWAGIRU designed and coded this project.
 ## setup instructions
