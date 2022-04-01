@@ -1,5 +1,5 @@
 ## portfolio website
-It is seems like good practice to have all your projects in one place to make it easy for interested parties to view your work. It is a good idea to have a portfolio website of your own. You can make it yours by adding your feel to the themes. THIS IS MY PORTFOLIO WEBSITE.
+It seems like good practice to have all your projects in one place to make it easier for interested parties to view your work. It is a good idea to have a portfolio website of your own. You can make it yours by adding your feel to the themes. THIS IS MY PORTFOLIO WEBSITE.
 ## check out portfolio here:
 This is my portfolio's landing page.
 ##
