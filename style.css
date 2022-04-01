@@ -239,3 +239,27 @@ button {
     font-size: 30px;
     color:#242526;
 }
+@media screen and (min-width: 320px)
+and(max-width: 480px) {
+    * {
+        width: 100%;
+    }
+}
+@media screen and (min-width: 480px)
+and(max-width: 768px) {
+    * {
+        width: 100%;
+    }
+}
+@media screen and (min-width: 768px)
+and(max-width: 1024px) {
+    * {
+        width: 100%;
+    }
+}
+@media screen and (min-width: 1024px)
+and(max-width: 1200px) {
+    * {
+        width: 100%;
+    }
+}
