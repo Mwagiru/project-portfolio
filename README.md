@@ -1,7 +1,8 @@
 ## portfolio website
 It is seems like good practice to have all your projects in one place to make it easy for interested parties to view your work. It is a good idea to have a portfolio website of your own. You can make it yours by adding your feel to the themes. THIS IS MY PORTFOLIO WEBSITE.
 ## check out portfolio here:
-This is the landing page of my portfolio. 
+This is my portfolio's landing page.
+##
 ![Getting Started](./images/Screenshot%20from%202022-04-01%2009-36-09.png)
 Click the live link below or in the about section of this repository to view the webpage.
 ## author name
